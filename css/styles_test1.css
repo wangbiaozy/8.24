@@ -44,8 +44,7 @@ body main > div.circle {
   margin: 0 auto;
   display: flex;
   box-sizing: border-box;
-  padding-bottom: .03rem;
-  padding-right: .03rem;
+  padding-right: .02rem;
   align-items: center;
   justify-content: center;
   width: 3.93rem;

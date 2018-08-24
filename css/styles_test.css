@@ -44,10 +44,10 @@ html section.main ul li,
 body section.main ul li {
   position: relative;
   margin: 0 auto;
-  padding: .35rem 0 .35rem .66rem;
+  padding: .35rem 0 .35rem 2.43rem;
   display: flex;
   align-items: center;
-  width: 5.5rem;
+  width: 3.73rem;
   border-bottom: 1px solid #0976d8;
 }
 html section.main ul li i,
@@ -62,10 +62,10 @@ body section.main ul li p {
   font-size: .3rem;
   color: #333333;
 }
-html section.main ul li p:nth-child(3),
-body section.main ul li p:nth-child(3) {
+html section.main ul li p:nth-child(2),
+body section.main ul li p:nth-child(2) {
   position: absolute;
-  left: 2.43rem;
+  left: .66rem;
 }
 html section.main ul li:nth-child(1) i,
 body section.main ul li:nth-child(1) i {

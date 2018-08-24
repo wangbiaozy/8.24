@@ -61,7 +61,7 @@ body main ul li {
   display: flex;
   align-items: center;
   margin: 0 auto;
-  padding-left: .5rem;
+  padding-left: .2rem;
   width: 5.9rem;
   height: .7rem;
   border-bottom: 1px solid #0976d8;
@@ -79,6 +79,6 @@ body main ul li p {
 html main ul li p span,
 body main ul li p span {
   position: absolute;
-  left: 2.66rem;
+  left: 2.3rem;
   font-weight: normal;
 }
