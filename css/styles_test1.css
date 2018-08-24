@@ -161,7 +161,7 @@ html section.tc_optimize,
 body section.tc_optimize {
   display: none;
   position: fixed;
-  top: .8rem;
+  top: 0;
   left: 0;
   width: 7.5rem;
   height: 100%;
