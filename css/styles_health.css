@@ -99,45 +99,45 @@ body main div.title p {
   font-weight: bold;
   color: #2ca0ef;
 }
-html main > ul,
-body main > ul {
+html main ul,
+body main ul {
   margin: 0 auto .44rem;
   width: 6.64rem;
   border-radius: .1rem;
   border: 2px solid #2ca0ef;
 }
-html main > ul li,
-body main > ul li {
+html main ul li,
+body main ul li {
   position: relative;
   margin: 0 auto;
   padding: .15rem 0;
   width: 5.92rem;
   border-bottom: 1px solid #2ca0ef;
 }
-html main > ul li:last-child,
-body main > ul li:last-child {
+html main ul li:last-child,
+body main ul li:last-child {
   border-bottom: none;
 }
-html main > ul li > p,
-body main > ul li > p {
+html main ul li > p,
+body main ul li > p {
   line-height: 2em;
   font-size: .3rem;
   color: #000000;
 }
-html main > ul li > p span,
-body main > ul li > p span {
+html main ul li > p span,
+body main ul li > p span {
   margin-left: .4rem;
 }
-html main > ul li > i,
-body main > ul li > i {
+html main ul li > i,
+body main ul li > i {
   display: block;
   width: 3.6rem;
   font-style: normal;
   font-size: .24rem;
   color: #010101;
 }
-html main > ul li > a,
-body main > ul li > a {
+html main ul li > a,
+body main ul li > a {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -157,13 +157,14 @@ html section.hot_tc,
 body section.hot_tc {
   display: none;
   position: fixed;
-  top: .8rem;
+  top: 0;
   left: 0;
   box-sizing: border-box;
   padding-top: .7rem;
   width: 7.5rem;
   height: 100%;
   background-color: #f5faf8;
+  z-index: 100;
 }
 html section.hot_tc h3,
 body section.hot_tc h3 {
