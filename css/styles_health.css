@@ -1,0 +1,217 @@
+html,
+body {
+  background-color: #f5faf8;
+}
+html header,
+body header {
+  position: relative;
+  width: 7.5rem;
+  height: .8rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  background-color: #4db3f2;
+}
+html header p,
+body header p {
+  font-size: .4rem;
+  text-align: center;
+  line-height: .8rem;
+  color: #ffffff;
+}
+html header a,
+body header a {
+  position: absolute;
+  right: .35rem;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: .41rem;
+  height: .44rem;
+  background: url(../images/back.png) center no-repeat;
+  background-size: cover;
+}
+html main div.head,
+body main div.head {
+  padding-top: .36rem;
+}
+html main div.head h2,
+body main div.head h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html main div.head h2 p,
+body main div.head h2 p {
+  margin: 0 .7rem;
+  font-size: .4rem;
+  color: #2ca0ef;
+}
+html main div.head h2 a,
+body main div.head h2 a {
+  width: .52rem;
+  height: .52rem;
+}
+html main div.head h2 a:nth-child(1),
+body main div.head h2 a:nth-child(1) {
+  background: url(../images/health_icon_3.png) center no-repeat;
+  background-size: cover;
+}
+html main div.head h2 a:nth-child(3),
+body main div.head h2 a:nth-child(3) {
+  background: url(../images/health_icon_4.png) center no-repeat;
+  background-size: cover;
+}
+html main div.head > p,
+body main div.head > p {
+  font-size: .46rem;
+  text-align: center;
+  line-height: 1.2rem;
+  color: #2ca0ef;
+}
+html main div.head > p span,
+body main div.head > p span {
+  font-size: .7rem;
+}
+html main div.title,
+body main div.title {
+  margin-bottom: .2rem;
+  padding-left: .6rem;
+  display: flex;
+  align-items: center;
+}
+html main div.title span,
+body main div.title span {
+  margin-right: .12rem;
+  width: .42rem;
+  height: .35rem;
+  background: url(../images/health_icon_1.png) center no-repeat;
+  background-size: cover;
+}
+html main div.title span.two,
+body main div.title span.two {
+  width: .36rem;
+  height: .29rem;
+  background: url(../images/health_icon_2.png) center no-repeat;
+  background-size: cover;
+}
+html main div.title p,
+body main div.title p {
+  font-size: .34rem;
+  font-weight: bold;
+  color: #2ca0ef;
+}
+html main > ul,
+body main > ul {
+  margin: 0 auto .44rem;
+  width: 6.64rem;
+  border-radius: .1rem;
+  border: 2px solid #2ca0ef;
+}
+html main > ul li,
+body main > ul li {
+  position: relative;
+  margin: 0 auto;
+  padding: .15rem 0;
+  width: 5.92rem;
+  border-bottom: 1px solid #2ca0ef;
+}
+html main > ul li:last-child,
+body main > ul li:last-child {
+  border-bottom: none;
+}
+html main > ul li > p,
+body main > ul li > p {
+  line-height: 2em;
+  font-size: .3rem;
+  color: #000000;
+}
+html main > ul li > p span,
+body main > ul li > p span {
+  margin-left: .4rem;
+}
+html main > ul li > i,
+body main > ul li > i {
+  display: block;
+  width: 3.6rem;
+  font-style: normal;
+  font-size: .24rem;
+  color: #010101;
+}
+html main > ul li > a,
+body main > ul li > a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -0.25rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .24rem;
+  color: #ffffff;
+  width: 1.3rem;
+  height: .42rem;
+  border-radius: .5rem;
+  background-color: #4db3f2;
+}
+html section.hot_tc,
+body section.hot_tc {
+  display: none;
+  position: fixed;
+  top: .8rem;
+  left: 0;
+  box-sizing: border-box;
+  padding-top: .7rem;
+  width: 7.5rem;
+  height: 100%;
+  background-color: #f5faf8;
+}
+html section.hot_tc h3,
+body section.hot_tc h3 {
+  display: flex;
+  align-items: center;
+  padding-left: .35rem;
+}
+html section.hot_tc h3 span,
+body section.hot_tc h3 span {
+  margin-right: .2rem;
+  width: .43rem;
+  height: .43rem;
+  background: url(../images/b_icon_1.png) center no-repeat;
+  background-size: cover;
+}
+html section.hot_tc h3 p,
+body section.hot_tc h3 p {
+  font-size: .34rem;
+  color: #2ca0ef;
+}
+html section.hot_tc ul,
+body section.hot_tc ul {
+  margin: .65rem auto .8rem;
+  width: 5.5rem;
+}
+html section.hot_tc ul li,
+body section.hot_tc ul li {
+  margin-bottom: .5rem;
+}
+html section.hot_tc ul li:last-child,
+body section.hot_tc ul li:last-child {
+  margin-bottom: 0;
+}
+html section.hot_tc ul li p,
+body section.hot_tc ul li p {
+  font-size: .3rem;
+  color: #333333;
+}
+html section.hot_tc a,
+body section.hot_tc a {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6.24rem;
+  height: .88rem;
+  font-size: .34rem;
+  color: #ffffff;
+  border-radius: .1rem;
+  background-color: #2ca0ef;
+}

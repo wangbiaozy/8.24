@@ -1,0 +1,190 @@
+html,
+body {
+  background-color: #f5faf8;
+}
+html header,
+body header {
+  position: relative;
+  width: 7.5rem;
+  height: .8rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  background-color: #4db3f2;
+}
+html header p,
+body header p {
+  font-size: .4rem;
+  text-align: center;
+  line-height: .8rem;
+  color: #ffffff;
+}
+html header a,
+body header a {
+  position: absolute;
+  right: .35rem;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: .41rem;
+  height: .44rem;
+  background: url(../images/back.png) center no-repeat;
+  background-size: cover;
+}
+html main,
+body main {
+  position: relative;
+  box-sizing: border-box;
+  padding-top: .72rem;
+  width: 7.5rem;
+  height: 5.01rem;
+  background: url(../images/test_bg.png) center no-repeat;
+  background-size: cover;
+}
+html main > div.circle,
+body main > div.circle {
+  margin: 0 auto;
+  display: flex;
+  box-sizing: border-box;
+  padding-bottom: .03rem;
+  padding-right: .03rem;
+  align-items: center;
+  justify-content: center;
+  width: 3.93rem;
+  height: 3.93rem;
+  background: url(../images/test_pic_1.png) center no-repeat;
+  background-size: cover;
+}
+html main > div.circle div.progress_1,
+body main > div.circle div.progress_1 {
+  opacity: .8;
+  position: relative;
+}
+html main > div.circle div.progress_1 p,
+body main > div.circle div.progress_1 p {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  line-height: 3rem;
+  text-align: center;
+  font-size: .4rem;
+  color: #ffffff;
+}
+html main > div.circle div.progress_1 p span,
+body main > div.circle div.progress_1 p span {
+  margin-right: .05rem;
+  font-size: .64rem;
+}
+html main > div.date,
+body main > div.date {
+  position: absolute;
+  bottom: -1.2rem;
+  width: 100%;
+}
+html main > div.date p,
+body main > div.date p {
+  width: 100%;
+  font-size: .34rem;
+  text-align: center;
+  color: #333333;
+}
+html footer,
+body footer {
+  padding-top: 1.84rem;
+}
+html footer div.result_1,
+body footer div.result_1 {
+  display: none;
+}
+html footer div.result_1 p,
+body footer div.result_1 p {
+  text-align: center;
+  color: #333333;
+}
+html footer div.result_1 p:nth-child(1),
+body footer div.result_1 p:nth-child(1) {
+  font-size: .3rem;
+}
+html footer div.result_1 p:nth-child(2),
+body footer div.result_1 p:nth-child(2) {
+  margin: .4rem 0;
+  font-size: .4rem;
+  font-weight: bold;
+}
+html footer div.result_1 p:nth-child(2) span,
+body footer div.result_1 p:nth-child(2) span {
+  font-size: .6rem;
+}
+html footer div.result_1 p:nth-child(3),
+body footer div.result_1 p:nth-child(3) {
+  font-size: .26rem;
+  color: #3596f0;
+}
+html footer div.result_1 a,
+body footer div.result_1 a {
+  margin: .75rem auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6.24rem;
+  height: .88rem;
+  font-size: .34rem;
+  color: #ffffff;
+  border-radius: .1rem;
+  background-color: #2ca0ef;
+}
+html footer div.result_2,
+body footer div.result_2 {
+  display: none;
+}
+html footer div.result_2 p,
+body footer div.result_2 p {
+  font-size: .26rem;
+  text-align: center;
+  line-height: 2em;
+  color: #3596f0;
+}
+html footer div.result_2 a,
+body footer div.result_2 a {
+  margin: .75rem auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6.24rem;
+  height: .88rem;
+  font-size: .34rem;
+  color: #ffffff;
+  border-radius: .1rem;
+  background-color: #2ca0ef;
+}
+html section.tc_optimize,
+body section.tc_optimize {
+  display: none;
+  position: fixed;
+  top: .8rem;
+  left: 0;
+  width: 7.5rem;
+  height: 100%;
+  background-color: #f5faf8;
+}
+html section.tc_optimize div,
+body section.tc_optimize div {
+  width: 7.5rem;
+  height: 5.4rem;
+  background: url(../images/optimize_tc.png) center no-repeat;
+  background-size: cover;
+}
+html section.tc_optimize a,
+body section.tc_optimize a {
+  margin: .99rem auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6.24rem;
+  height: .88rem;
+  font-size: .34rem;
+  color: #ffffff;
+  border-radius: .1rem;
+  background-color: #2ca0ef;
+}

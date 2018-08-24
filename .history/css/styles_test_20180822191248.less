@@ -1,0 +1,83 @@
+html,body{
+    background-color: #f5faf8;
+    header{
+        position: relative;
+        width: 7.5rem;
+        height: .8rem;
+        box-shadow: 0 5px 10px rgba(0,0, 0, .3);
+        background-color: #4db3f2;
+        p{
+            font-size: .4rem;
+            text-align: center;
+            line-height: .8rem;
+            color: #ffffff;
+        }
+        a{
+            position: absolute;
+            right: .35rem;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            width: .41rem;
+            height: .44rem;
+            background: url(../images/back.png) center no-repeat;
+            background-size: cover;
+        }
+    }
+    section.main{
+        padding-top: .94rem;
+        ul{
+            margin: 0 auto .33rem;
+            width: 6.75rem;
+            border: 2px solid #4db3f2;
+            border-radius: .1rem;
+            li{
+                position: relative;
+                margin: 0 auto;
+                padding: .35rem 0 .35rem .66rem;
+                display: flex;
+                align-items: center;
+                width: 5.5rem;
+                border-bottom: 1px solid #0976d8;
+                i{
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    margin: auto;
+                }
+                p{
+                    font-size: .3rem;
+                    color: #333333;
+                }
+                &:nth-child(1){
+                    i{
+                        left: -.07rem;
+                        width: .42rem;
+                        height: .45rem;
+                        background: url(../images/t_icon_1.png) center no-repeat;
+                        background-size: cover;
+                    }
+                }
+                &:nth-child(2){
+                    i{
+                        left: -.09rem;
+                        width: .49rem;
+                        height: .44rem;
+                        background: url(../images/t_icon_2.png) center no-repeat;
+                        background-size: cover;
+                    }
+                }
+                &:nth-child(3){
+                    border-bottom: none;
+                    i{
+                        left: -.02rem;
+                        width: .37rem;
+                        height: .49rem;
+                        background: url(../images/t_icon_3.png) center no-repeat;
+                        background-size: cover;
+                    }
+                }
+            }
+        }
+    }
+}

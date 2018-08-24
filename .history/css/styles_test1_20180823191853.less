@@ -1,0 +1,149 @@
+html,body{
+    background-color: #f5faf8;
+    header{
+        position: relative;
+        width: 7.5rem;
+        height: .8rem;
+        box-shadow: 0 5px 10px rgba(0,0, 0, .3);
+        background-color: #4db3f2;
+        p{
+            font-size: .4rem;
+            text-align: center;
+            line-height: .8rem;
+            color: #ffffff;
+        }
+        a{
+            position: absolute;
+            right: .35rem;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            width: .41rem;
+            height: .44rem;
+            background: url(../images/back.png) center no-repeat;
+            background-size: cover;
+        }
+    }
+    main{
+        position: relative;
+        box-sizing: border-box;
+        padding-top: .72rem;
+        width: 7.5rem;
+        height: 5.01rem;
+        background: url(../images/test_bg.png) center no-repeat;
+        background-size: cover;
+        >div.circle{
+            margin: 0 auto;
+            display: flex;
+            box-sizing: border-box;
+            padding-bottom: .03rem;
+            padding-right: .03rem;
+            align-items: center;
+            justify-content: center;
+            width: 3.93rem;
+            height: 3.93rem;
+            background: url(../images/test_pic_1.png) center no-repeat;
+            background-size: cover;
+            div.progress_1{
+                opacity: .8;
+                position: relative;
+                p{
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    margin: auto;
+                    width: 100%;
+                    line-height: 3rem;
+                    text-align: center;
+                    font-size: .4rem;
+                    color: #ffffff;
+                    span{
+                        margin-right: .05rem;
+                        font-size: .64rem;
+                    }
+                }
+            }
+        }
+        >div.date{
+            position: absolute;
+            bottom: -1.2rem;
+            width: 100%;
+            p{
+                width: 100%;
+                font-size: .34rem;
+                text-align: center;
+                color: #333333;
+            }
+        }
+    }
+    footer{
+        padding-top: 1.84rem;
+        div.result_1{
+            display: none;
+            p{
+                text-align: center;
+                color: #333333;
+                &:nth-child(1){
+                    font-size: .3rem;
+                }
+                &:nth-child(2){
+                    margin: .4rem 0;
+                    font-size: .4rem;
+                    font-weight: bold;
+                    span{
+                        font-size: .6rem;
+                    }
+                }
+                &:nth-child(3){
+                    font-size: .26rem;
+                    color: #3596f0;
+                }
+            }
+            a{
+                margin: .75rem auto 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 6.24rem;
+                height: .88rem;
+                font-size: .34rem;
+                color: #ffffff;
+                border-radius: .1rem;
+                background-color: #2ca0ef;
+            }
+        }
+        div.result_2{
+            display: none;
+            p{
+                font-size: .26rem;
+                text-align: center;
+                line-height: 2em;
+                color: #3596f0;
+            }
+            a{
+                margin: .75rem auto 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 6.24rem;
+                height: .88rem;
+                font-size: .34rem;
+                color: #ffffff;
+                border-radius: .1rem;
+                background-color: #2ca0ef;
+            }
+        }
+    }
+    section.tc_optimize{
+        position: fixed;
+        top: .8rem;
+        left: 0;
+        div{
+            width: 7.5rem;
+            height: 5.4rem;
+            background: url(../images/optimize_tc.png) center no-repeat;
+            background-size: cover;
+        }
+    }
+}

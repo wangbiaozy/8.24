@@ -1,0 +1,107 @@
+html,body{
+    background-color: #f5faf8;
+    header{
+        position: relative;
+        width: 7.5rem;
+        height: .8rem;
+        box-shadow: 0 5px 10px rgba(0,0, 0, .3);
+        background-color: #4db3f2;
+        p{
+            font-size: .4rem;
+            text-align: center;
+            line-height: .8rem;
+            color: #ffffff;
+        }
+        a{
+            position: absolute;
+            right: .35rem;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            width: .41rem;
+            height: .44rem;
+            background: url(../images/back.png) center no-repeat;
+            background-size: cover;
+        }
+    }
+    main{
+        div.head{
+            padding-top: .36rem;
+            h2{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                p{
+                    margin: 0 .7rem;
+                    font-size: .4rem;
+                    color: #2ca0ef;
+                }
+                a{
+                    width: .52rem;
+                    height: .52rem;
+                    &:nth-child(1){
+                        background: url(../images/health_icon_3.png) center no-repeat;
+                        background-size: cover;
+                    }
+                    &:nth-child(3){
+                        background: url(../images/health_icon_4.png) center no-repeat;
+                        background-size: cover;
+                    }
+                }
+            }
+            >p{
+                font-size: .46rem;
+                text-align: center;
+                line-height: 1.2rem;
+                color: #2ca0ef;
+                span{
+                    font-size: .7rem;
+                }
+            }
+        }
+        div.title{
+            margin-bottom: .2rem;
+            display: flex;
+            align-items: center;
+            span{
+                margin-right: .12rem;
+                width: .42rem;
+                height: .35rem;
+                background: url(../images/health_icon_1.png) center no-repeat;
+                background-size: cover;
+                &.two{
+                    width: .36rem;
+                    height: .29rem;
+                    background: url(../images/health_icon_2.png) center no-repeat;
+                    background-size: cover;
+                }
+            }
+            p{
+                font-size: .34rem;
+                font-weight: bold;
+                color: #2ca0ef;
+            }
+        }
+        >ul{
+            margin: 0 auto .44rem;
+            width: 6.64rem;
+            border-radius: .1rem;
+            border: 2px solid #2ca0ef;
+            li{
+                margin: 0 auto;
+                width: 5.92rem;
+                border-bottom: 1px solid #2ca0ef;
+                &:last-child{
+                    border-bottom: none;
+                }
+                >p{
+                    font-size: .3rem;
+                    color: #000000;
+                }
+                >i{
+                    font-style: normal;
+                }
+            }
+        }
+    }
+}

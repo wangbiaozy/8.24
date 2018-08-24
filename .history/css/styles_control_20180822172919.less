@@ -1,0 +1,123 @@
+html,body{
+    background-color: #f5faf8;
+    header{
+        position: relative;
+        width: 7.5rem;
+        height: .8rem;
+        box-shadow: 0 5px 10px rgba(0,0, 0, .3);
+        background-color: #4db3f2;
+        p{
+            font-size: .4rem;
+            text-align: center;
+            line-height: .8rem;
+            color: #ffffff;
+        }
+        a{
+            position: absolute;
+            right: .35rem;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            width: .41rem;
+            height: .44rem;
+            background: url(../images/back.png) center no-repeat;
+            background-size: cover;
+        }
+    }
+    section{
+        padding-top: .56rem;
+        >ul{
+            box-sizing: border-box;
+            margin: 0 auto .33rem;
+            padding: .15rem 0;
+            width: 6.75rem;
+            border: 2px solid #4db3f2;
+            border-radius: .1rem;
+            >li{
+                box-sizing: border-box;
+                position: relative;
+                display: flex;
+                align-items: center;
+                margin: 0 auto;
+                width: 5.82rem;
+                height: 1rem;
+                border-bottom: 1px solid #0976d8;
+                &:last-child{
+                    border-bottom: none;
+                }
+                p{
+                    font-size: .32rem;
+                }
+                a{
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    margin: auto;
+                    right: 0;
+                    width: 1.42rem;
+                    height: .65rem;
+                    background: url(../images/btn_on.png) center no-repeat;
+                    background-size: cover;
+                    &.off{
+                        background: url(../images/btn_off.png) center no-repeat;
+                        background-size: cover;
+                    }
+                }
+                >div{
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    rigth: 0;
+                    margin: auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 1.27rem;
+                    height: .45rem;
+                    border-radius: .1rem;
+                    background-color: #2ca0ef;
+                    &.act{
+                        border-radius: .1rem .1rem 0 0;
+                    }
+                    p{
+                        font-size: .24rem;
+                        color: #ffffff;
+                    }
+                    span{
+                        margin-left: .22rem;
+                        width: .18rem;
+                        height: .11rem;
+                        background: url(../images/arrow_m.png) center no-repeat;
+                        background-size: cover;
+                        &.act{
+                            -webkit-transform: rotate(180deg);
+                            transform: rotate(180deg);
+                        }
+                    }
+                    ul.blacklist{
+                        display: none;
+                        overflow: scroll;
+                        position: absolute;
+                        top: .54rem;
+                        box-sizing: border-box;
+                        width: 2.16rem;
+                        height: 1.4rem;
+                        border: 2px solid #7db95f;
+                        border-top: none;
+                        border-radius: 0 0 .1rem .1rem;
+                        background-color: #ffffff;
+                        li{
+                            margin: 0 auto;
+                            width: 1.9rem;
+                            height: .46rem;
+                            font-size: .24rem;
+                            color: #666666;
+                            line-height: .46rem;
+                            border-bottom: 1px solid #e6e6e6;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

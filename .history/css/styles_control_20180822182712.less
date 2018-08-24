@@ -1,0 +1,108 @@
+html,body{
+    background-color: #f5faf8;
+    header{
+        position: relative;
+        width: 7.5rem;
+        height: .8rem;
+        box-shadow: 0 5px 10px rgba(0,0, 0, .3);
+        background-color: #4db3f2;
+        p{
+            font-size: .4rem;
+            text-align: center;
+            line-height: .8rem;
+            color: #ffffff;
+        }
+        a{
+            position: absolute;
+            right: .35rem;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            width: .41rem;
+            height: .44rem;
+            background: url(../images/back.png) center no-repeat;
+            background-size: cover;
+        }
+    }
+    section{
+        padding-top: .56rem;
+        >ul{
+            box-sizing: border-box;
+            margin: 0 auto .33rem;
+            padding: .15rem 0;
+            width: 6.75rem;
+            border: 2px solid #4db3f2;
+            border-radius: .1rem;
+            >li{
+                box-sizing: border-box;
+                position: relative;
+                display: flex;
+                align-items: center;
+                margin: 0 auto;
+                width: 5.82rem;
+                height: 1rem;
+                border-bottom: 1px solid #0976d8;
+                &:last-child{
+                    border-bottom: none;
+                }
+                p{
+                    font-size: .32rem;
+                }
+                a{
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    margin: auto;
+                    right: 0;
+                    width: 1.42rem;
+                    height: .65rem;
+                    background: url(../images/btn_on.png) center no-repeat;
+                    background-size: cover;
+                    &.off{
+                        background: url(../images/btn_off.png) center no-repeat;
+                        background-size: cover;
+                    }
+                }
+                >div{
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    margin: auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 1.27rem;
+                    height: .45rem;
+                    border-radius: .5rem;
+                    background-color: #2ca0ef;
+                    p{
+                        font-size: .26rem;
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+        >div{
+            margin-top: .2rem;
+            width: 7.5rem;
+            height: 2.44rem;
+            background: url(../images/other.png) center no-repeat;
+            background-size: cover;
+        }
+    }
+    >div{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 7.5rem;
+        height: 100%;
+        background-color: #f5faf8;
+        >div:nth-child(1){
+            h2{
+                font-size: .34rem;
+                color: #2ca0ef;
+            }
+        }
+    }
+}
